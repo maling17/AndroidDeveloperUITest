@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mapsFragment"
+        android:icon="@drawable/ic_car"
+        android:title="@string/rent_a_car" />
+    <item
+        android:id="@+id/detailBookingFragment"
+        android:icon="@drawable/ic_round_beenhere_24"
+        android:title="@string/bookings" />
+    <item
+        android:id="@+id/referFriendFragment"
+        android:icon="@drawable/ic_round_card_giftcard_24"
+        android:title="@string/refer_a_friend" />
+    <item
+        android:id="@+id/accountFragment"
+        android:icon="@drawable/ic_round_settings_24"
+        android:title="@string/account" />
+
+</menu>

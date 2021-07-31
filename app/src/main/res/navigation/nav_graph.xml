@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/mapsFragment">
+
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.kresna.androiddeveloperuitest.MapsFragment"
+        android:label="MapsFragment" >
+        <action
+            android:id="@+id/action_mapsFragment_to_searchFragment"
+            app:destination="@id/searchFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.kresna.androiddeveloperuitest.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/bookingsFragment"
+        android:name="com.kresna.androiddeveloperuitest.BookingsFragment"
+        android:label="fragment_bookings"
+        tools:layout="@layout/fragment_bookings" />
+    <fragment
+        android:id="@+id/referFriendFragment"
+        android:name="com.kresna.androiddeveloperuitest.ReferFriendFragment"
+        android:label="fragment_refer_friend"
+        tools:layout="@layout/fragment_refer_friend" />
+    <fragment
+        android:id="@+id/detailBookingFragment"
+        android:name="com.kresna.androiddeveloperuitest.DetailBookingFragment"
+        android:label="fragment_detail_booking"
+        tools:layout="@layout/fragment_detail_booking" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.kresna.androiddeveloperuitest.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+</navigation>

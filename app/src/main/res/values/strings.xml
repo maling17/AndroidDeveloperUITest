@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Android Developer UI Test</string>
+    <string name="current_location">Current Location</string>
+    <string name="location">Location</string>
+    <string name="date_time"><![CDATA[Date & Time]]></string>
+    <string name="now">Now</string>
+    <string name="duration">Duration</string>
+    <string name="go">GO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rent_a_car">Rent a car</string>
+    <string name="bookings">Bookings</string>
+    <string name="refer_a_friend">Refer a friend</string>
+    <string name="account">Account</string>
+    <string name="mazda_3">Mazda 3</string>
+    <string name="sms_1000z">SMS1000Z</string>
+    <string name="_5_seater">5 Seater</string>
+    <string name="_0_5km_away">0.5KM AWAY</string>
+    <string name="fr_3_00_hr">Fr.$3.00/hr</string>
+    <string name="rental_fee">Rental Fee</string>
+    <string name="mileage_fee">Mileage fee</string>
+    <string name="search_result">Search Result</string>
+    <string name="_300">300+</string>
+    <string name="filter">Filter</string>
+    <string name="map">Map</string>
+    <string name="booking_id_44123331">Booking ID: 44123331</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="start_date">Start Date</string>
+    <string name="mon_1_nov_20_11_45am">Mon, 1 Nov 20 11:45am</string>
+    <string name="end_date">End Date</string>
+    <string name="tue_2_nov_20_11_45am">Tue, 2 Nov 20 11:45am</string>
+    <string name="_02_00">02 : 00</string>
+    <string name="add_to_calendar">Add to Calendar</string>
+    <string name="extend">Extend</string>
+    <string name="pick_up_car_at">Pick up car at</string>
+    <string name="_194_punggol_road_p100_multi_storey_car_park">194 Punggol Road P100 Multi Storey Car Park</string>
+    <string name="level_4_lot_123_456">Level 4/ Lot 123 - 456</string>
+    <string name="get_directions">Get Directions</string>
+    <string name="estimated_total">Estimated Total</string>
+    <string name="amount_is_not_final">*Amount is not final</string>
+    <string name="s_52_00">S$52.00</string>
+    <string name="need_help">Need Help</string>
+    <string name="cancel_this_booking">Cancel this booking</string>
+</resources>
